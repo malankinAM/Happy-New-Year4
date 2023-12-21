@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('novogodniaia-noch-6.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h1{
+    font-size: 6em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    -webkit-text-stroke: 1px #0fd24d;
+    color: transparent;
+    background: url('back-text.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: backText 20s linear infinite alternate;
+}
+
+
+.text h1 {
+    font-size: 9em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background: url('back-text.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: backText 20s linear infinite alternate;
+}
+
+@keyframes backText {
+    100% {
+        background-position: 2000px 0;
+    }
+}
